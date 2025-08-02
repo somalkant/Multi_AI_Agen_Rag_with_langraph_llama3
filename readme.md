@@ -4,7 +4,22 @@
 
 ## Project Overview
 
-This project implements a comprehensive multi-AI agent application using LangGraph, AstraDB, and Llama 3.1. It demonstrates the capabilities of Retrieval-Augmented Generation (RAG) and multi-agent architecture to handle complex tasks efficiently. The project showcases the integration of multiple components, such as vector storage, embedding models, and external information retrieval tools.
+This project implements a state-of-the-art Retrieval-Augmented Generation (RAG) system using LangGraph, AstraDB, and Llama 3.1.
+It leverages a multi-agent architecture to efficiently coordinate complex tasks across agents, enabling advanced query understanding, contextual reasoning, and response generation.
+
+A key innovation in this system is the integration of the HyQE (Hybrid Query Expansion and Reranking) framework, which enhances the quality of document retrieval by generating synthetic queries for candidate documents and reranking them based on relevance to the original user query. This significantly improves the precision and reliability of the LLM responses by ensuring only the most contextually appropriate documents are passed to the generation stage.
+
+The project also features seamless integration of:
+
+Vector storage and retrieval via AstraDB
+
+LLM orchestration using LangGraph
+
+Embedding models for similarity search and reranking
+
+A modular and extensible multi-agent pipeline for robust task decomposition
+
+Overall, this system demonstrates how modern AI infrastructure and RAG techniques can be combined with cutting-edge reranking logic to deliver highly accurate, context-aware answers at scale.
 
 ## Features
 
