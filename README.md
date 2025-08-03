@@ -10,6 +10,17 @@ The enhanced system now includes three main components:
 2. **Wikipedia Search Agent** - For general knowledge questions and historical facts
 3. **MCP Agent** - For real-time information, current events, web searches, and tool interactions
 
+   ![emai_1_vector](https://github.com/user-attachments/assets/8e214918-ab1d-49fc-b49c-84e8e49e7ffa)
+
+   ![vectorstore_2](https://github.com/user-attachments/assets/4509c649-803a-4c1b-b37d-1699a1350cc6)
+
+   ![wiki_output](https://github.com/user-attachments/assets/bb6a9bff-0251-422c-95f3-54347259a794)
+
+   ![mcp_output](https://github.com/user-attachments/assets/699c6542-3e3a-4027-ab33-d76dd4d71863)
+
+
+
+
 ## Key Features
 
 ### Enhanced Routing Logic
@@ -184,5 +195,6 @@ To contribute to this project:
 5. Submit a pull request
 
 ## License
+
 
 This project is based on the original HyQE RAG system and extends it with MCP agent capabilities. 
